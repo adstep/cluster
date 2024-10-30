@@ -40,7 +40,7 @@ spec:
         format: common
       access:
         enabled: true
-    defaultCertificate: cluster-cert
+    defaultCertificate: wildcard
     service:
       main:
         type: ClusterIP
