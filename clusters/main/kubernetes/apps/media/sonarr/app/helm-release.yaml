@@ -41,7 +41,9 @@ spec:
       main:
         enabled: true
         type: LoadBalancer
-        loadBalancerIP: ""
+        loadBalancerIP: 10.0.0.202
+        annotations:
+          metallb.universe.tf/allow-shared-ip: "media"
         ports:
           main:
             port: 8989
