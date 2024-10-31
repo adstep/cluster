@@ -17,3 +17,9 @@ flux reconcile source git cluster -n flux-system
 ```
 kubectl describe helmrelease clusterissuer -n clusterissuer
 ```
+
+## Delete Chart
+
+```
+kubectl delete service sonarr -n media
+```
