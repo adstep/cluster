@@ -41,7 +41,7 @@ spec:
       main:
         enabled: true
         type: LoadBalancer
-        loadBalancerIP: ${TRAEFIK_IP}
+        loadBalancerIP: ""
         ports:
           main:
             port: 8989
