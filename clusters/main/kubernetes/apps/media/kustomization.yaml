@@ -5,5 +5,5 @@ resources:
   - downloads-nfs-pvc.yaml
   - media-nfs-pvc.yaml
   - sonarr/ks.yaml
-  - flaresolverr
   - radarr/ks.yaml
+  - flaresolverr/ks.yaml
