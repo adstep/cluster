@@ -69,8 +69,8 @@ spec:
       media:
         enabled: true
         existingClaim: media-nfs-pvc
-        mountPath: "/media"
+        mountPath: "/mnt/media"
       downloads:
         enabled: true
         existingClaim: downloads-nfs-pvc
-        mountPath: "/downloads"
+        mountPath: "/mnt/downloads"
