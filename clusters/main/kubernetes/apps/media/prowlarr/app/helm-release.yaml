@@ -41,7 +41,10 @@ spec:
       main:
         enabled: true
         type: LoadBalancer
-        loadBalancerIP: ""
+        loadBalancerIP: "10.0.0.205"
+        externalTrafficPolicy: Local
+        annotations:
+          metallb.universe.tf/address-sharing: "media"
         ports:
           main:
             port: 9696
