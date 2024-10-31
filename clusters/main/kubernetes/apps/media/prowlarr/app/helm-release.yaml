@@ -68,3 +68,11 @@ spec:
     #           - path: /
     #             pathType: Prefix
     persistence:
+      media:
+        enabled: true
+        existingClaim: media-nfs-pvc
+        mountPath: "/mnt/media"
+      downloads:
+        enabled: true
+        existingClaim: downloads-nfs-pvc
+        mountPath: "/mnt/downloads"
